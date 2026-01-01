@@ -26,7 +26,27 @@
 
       <div class="nav-search">
         <select class="search-select">
-          <option>All</option>
+          <option id="all">All</option>
+          <option>All Departments</option>
+          <option>Arts & Crafts</option>
+          <option>Automotive</option>
+          <option>Baby</option>
+          <option>Beauty & Personal Care</option>
+          <option>Books</option>
+          <option>Boys' Fashion</option>
+          <option>Computers</option>
+          <option>Deals</option>
+          <option>Digital Music</option>
+          <option>Electronics</option>
+          <option>Girls' Fashion</option>
+          <option>Health & Household</option>
+          <option>Home & Kitchen</option>
+          <option>Industrial & Scientific</option>
+          <option>Kindle Store</option>
+          <option>Luggage</option>
+          <option>Men's Fashion</option>
+          <option>Movies & TV</option>
+          <option>Music, CDs & Vinyl</option>
         </select>
         <input placeholder="Search Amazon" class="search-input">
         <div class="search-icon">
@@ -55,6 +75,11 @@
       <div class="panel-all">
         <i class="fa-solid fa-bars"></i>
         All
+        <div class="dropdown hidden">
+         <p>Mobiles</p>
+         <p>Fashion</p>
+         <p>Electronics</p>
+        </div>
       </div>
 
       <div class="panel-ops ">
@@ -87,7 +112,8 @@
         <div class="box-content">
           <h2>Shop holiday gift guides</h2>
           <div class="box-image" style="background-image:url('shop1.jpg')"></div>
-          <p>Explore holiday gifts</p>
+          <p class="explore-btn1">Explore holiday gifts</p>
+
         </div>
       </div>
       <div class="box2 box">
@@ -114,7 +140,7 @@
                 <span class="item-name">Speakers</span>
             </div>
           </div>
-          <p>Discover more</p>
+          <p class="explore-btn2">Discover more</p>
         </div>
       </div>
 
@@ -143,7 +169,7 @@
                 <span class="item-name">Bedding</span>
             </div>
           </div>
-          <p>Discover more for Home</p>
+          <p class="explore-btn3">Discover more for Home</p>
         </div>
       </div>
       <div class="box4 box">
@@ -170,7 +196,7 @@
                 <span class="item-name">Health and Beauty</span>
             </div>
           </div>
-          <p>See more</p>
+          <p class="explore-btn4">See more</p>
         </div>
       </div>
       <div class="box5 box">
@@ -326,8 +352,13 @@
         </div>
       </div>
 
+      
+
+
 
     </footer>
+
+    <script src="script.js"></script>
 
   
 </body>
