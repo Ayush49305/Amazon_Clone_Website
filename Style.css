@@ -241,6 +241,22 @@ span{
   margin-top:0px;
 }
 
+.explore-btn1:hover{
+  cursor:pointer;
+}
+
+.explore-btn2:hover{
+  cursor:pointer;
+}
+
+.explore-btn3:hover{
+  cursor:pointer;
+}
+
+.explore-btn4:hover{
+  cursor:pointer;
+}
+
 /** Footer  **/
 
 footer{
